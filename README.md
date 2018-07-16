@@ -1,4 +1,4 @@
-# repository-title-goes-here
+# zipcode-example
 
 This is a single file stand-alone application using R Markdown.
 
