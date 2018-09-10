@@ -48,8 +48,8 @@ and note the installation instructions at the very top of the page.
 
 ```{r built-in-tools}
 all_zipcodes                           %>%
-  filter(grepl("^641", GEOID10))       %>%
-  mutate(co=ifelse(GEOID10=="64108", "64108", "other 641 codes")) %>%
+  filter(grepl("^641", GEOID10))        %>%
+  mutate(co=ifelse(GEOID10=="64108", "64108", "other 64 codes")) %>%
   ggplot()                              +
   geom_sf(aes(fill=co))                 +
   ggtitle("Test")
