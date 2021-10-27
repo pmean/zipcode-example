@@ -23,7 +23,7 @@ The list column represents geographic features either as a single data points (P
 The POLYGON and MULTIPOLYGON features can include holes, and there are complex rules for geographic features with holes.
 
 ```{r read}
-path_name <- "~/zipcode-example/data"
+path_name <- "../data"
 list.files(path_name)
 ```
 
